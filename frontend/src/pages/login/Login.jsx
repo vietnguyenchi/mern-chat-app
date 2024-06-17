@@ -60,7 +60,7 @@ const Login = () => {
 					<div>
 						<button
 							disabled={loading}
-							className="btn btn-block btn-sm mt-2"
+							className="btn btn-block btn-sm mt-2 bg-sky-500 text-white"
 						>
 							{loading ? (
 								<span className="loading loading-spinner"></span>

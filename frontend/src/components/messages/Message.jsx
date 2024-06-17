@@ -22,7 +22,8 @@ const Message = ({ message }) => {
 				</div>
 			</div>
 			<div
-				className={`chat-bubble text-white ${bubbleBgColor} ${shakeClass} pb-2`}
+				style={{ overflowWrap: 'break-word', wordWrap: 'break-word' }}
+				className={`chat-bubble text-white ${bubbleBgColor} ${shakeClass} pb-2 max-w-[50%]`}
 			>
 				{message.message}
 			</div>

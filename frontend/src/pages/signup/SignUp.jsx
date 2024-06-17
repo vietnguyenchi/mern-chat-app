@@ -105,7 +105,7 @@ const SignUp = () => {
 					/>
 
 					<Link
-						to="login"
+						to="/login"
 						className="text-sm hover:underline hover:text-blue-600 mt-2 inline-block text-white"
 					>
 						Already have an account?
@@ -114,7 +114,7 @@ const SignUp = () => {
 					<div>
 						<button
 							disabled={loading}
-							className="btn btn-block btn-sm mt-2"
+							className="btn btn-block btn-sm mt-2 bg-sky-500 text-white"
 						>
 							{loading ? (
 								<span className="loading loading-spinner"></span>
